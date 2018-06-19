@@ -1,0 +1,5 @@
+Gestor de cuentas
+------------------------
+caracteristicas : 
+ * agrega y elimina registros de ingreso y salida de dinero. 
+ * BD MySql, lenguaje PHP v7.

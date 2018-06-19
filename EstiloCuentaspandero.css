@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  font-family: 'Glegoo', serif; 
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 59%, rgba(224,224,224,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(59%, rgba(221,221,221,1)), color-stop(100%, rgba(224,224,224,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 59%, rgba(224,224,224,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 59%, rgba(224,224,224,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 59%, rgba(224,224,224,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 59%, rgba(224,224,224,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=1 ); /* ie6-9 */;
+background-size:contain;
+    color: black;
+    font-size:10px;
+}
+#EnvolturaContenido{
+    /*border: 1px solid green;*/
+    height: 100%;
+    padding: 0px;
+}
+#Contenido{
+    /*border: 1px solid red;*/
+    height: 100%;
+    /*padding: 1px;*/
+}
+#Titulo{
+    /*border: 1px solid blue;*/
+    text-align: center;
+    margin-top: 90px;
+}
+#FrmLogin{
+    /*border: 1px solid yellow;*/
+    margin-top: 90px;
+    /*padding: 1px;*/
+    
+}
+.BtnAc{
+    font-family: 'VT323', monospace;
+    background-color:transparent;
+
+    padding: 5px;
+    border: solid 2px black;
+    font-size: 20px;
+    
+}
+.Inpt{
+    display: table;
+    width: 100%;
+    border: none;
+    height: 30px;
+    font-family:'VT323', monospace;
+    font-size: 20px;
+}
+.Cuentas{
+    margin-top: 10px;
+    display: table;
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 55px;
+    }
+.Registros{
+    width: 100%;
+    color: black;
+    border-collapse: separate;
+    border-spacing:  0px;
+  
+}
+.Registros tr th,td{
+   border-bottom:  1px solid black;
+    width: auto;
+    text-align:center;
+}
+.envolfrm{
+    padding: 5px;
+}
+.frmMant{
+    position:fixed;
+    top: -100%;
+    width: 100%;
+    padding:15px;
+    left:0%;
+    background-color:#191919;
+    transition: all 1s;
+}
+#CerrarSesion{
+    background-color:rgba( 255, 255, 255, 0 );
+    border: none;
+    float: right;
+}
+#FrmCS{
+    padding: 5px;
+}
+.envoltcontroles{
+    width: 100%;
+    height: auto;
+    background-color:#191919;
+    position: fixed;
+    bottom: 0%;
+       
+}
+.controles{
+    width: 70px;
+    height: 45px;
+    margin: 0 auto;
+    background-color:#191919;
+
+}
+.BtnCont{
+    background-color:#191919;
+    color: white;
+    border: solid 2px white;
+    width:30px;
+    height: 30px;
+    border-radius:50%;
+    text-align: center;
+    display: table;
+    float: left;
+    font-size:15px;   
+    margin: 2px;
+}
